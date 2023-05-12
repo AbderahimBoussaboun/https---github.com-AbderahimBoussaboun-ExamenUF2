@@ -11,15 +11,15 @@ public class Suma {
         this.num2=num2;
     }
 
-    
+    public int sumar(int num1, int num2){
+        return num1+num2;
+    }
 
+    public int getNum1(int num1, int num2){
+        return num1;
+    }
 
-
-
-
-
-
-
-
-    
+    public int sumaValorAbsolut(int num1, int num2){
+        return java.lang.Math.abs(num1+num2);
+    }
 }
